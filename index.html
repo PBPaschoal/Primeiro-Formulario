@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Sublime Text -->
+<html lang="pt-br">
+<!-- https://www.homehost.com.br/blog/tutoriais/formulario-html/ 
+
+https://www.w3schools.com/tags/tag_form.asp -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/index.css" alt="Meu CSS">
+    <link rel="icon" type="image/webp" href="/img/Free01.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <title></title>
+    <meta name="description"
+        content="">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="formulario">
+                    <form>
+                        <p>Nome:</p>
+                        <input type="text" name="nome" placeholder="Digite seu Nome aqui">
+                        <p>E-mail:</p>
+                        <input type="e-mail" name="email" placeholder="Digite seu e-mail">
+                        <p>Data de Nascimento:</p>
+                        <input type="date" name="nascimento">
+                        <p>Mensagem:</p>
+                        <textarea placeholder="Digite sua mensagem"></textarea>
+                        <p>Assunto:</p>
+                        <input type="checkbox" name="assunto-pessoal" value="assunto">Pessoal<br>
+                        <input type="checkbox" name="assunto-profissioanl" value="assunto">Profissional<br>
+                        <input type="checkbox" name="assunto-diversao" value="assunto">Diversão<br>
+                        <input type="checkbox" name="assunto-outros" value="assunto">Outros<br><br>
+
+                        <input type="file" name="arquivos" multiple>
+
+                        <p>Defina seu nível de satisfação:</p>
+                        Pouco
+                        <input type="range" name="satisfacao" min="0" max="10">
+                        Muito
+
+                        <div class="enviar">
+                            <input type="submit" name="enviar" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+
+                <div>
+                    <figure>
+                        <img src="./img/like.png">
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

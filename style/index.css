@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+body {
+	background-color: #8433FF;
+	color: #02324F;
+	font-family: 'Hind', sans-serif;
+}
+
+.formulario {
+	background-color: #F6F5CA;
+	border-radius: 20px;
+	width: 350px;
+}
+
+form {
+	padding: 20px;
+}
+
+.enviar {
+	margin-top: 10px;
+}
+
+.container {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+}
